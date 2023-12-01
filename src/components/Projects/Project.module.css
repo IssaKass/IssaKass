@@ -1,0 +1,65 @@
+.project {
+	--border: 1px solid var(--clr-neutral);
+
+	background: var(--clr-neutral);
+	border: var(--border);
+	border-radius: var(--rad);
+	padding: 1rem;
+	display: flex;
+	flex-direction: column;
+}
+
+.project_image {
+	width: 100%;
+	height: 16rem;
+	border-radius: inherit;
+	border: var(--border);
+}
+
+.project_title {
+	margin-top: 1rem;
+	font-weight: 500;
+	font-size: 1.33rem;
+}
+
+.project_description {
+	margin-top: 1rem;
+}
+
+.project_skill_list {
+	margin-block: 1rem 2rem;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 0.5rem;
+}
+
+.project_skill_item {
+	background-color: var(--clr-secondary);
+	border: 1px solid var(--clr-neutral);
+	padding: 0.3rem 0.5rem;
+	border-radius: var(--rad);
+}
+
+.project_links {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 0.5rem;
+	margin-block-start: auto;
+}
+
+.project_link {
+	flex: 1;
+	text-align: center;
+	background-color: var(--clr-primary);
+	padding: 0.6rem 1.5rem;
+	border-radius: 100vmax;
+	border: 1px solid transparent;
+	color: var(--light);
+	transition: var(--transition);
+}
+
+.project_link:hover {
+	background-color: var(--clr-neutral);
+	border-color: var(--clr-neutral);
+}

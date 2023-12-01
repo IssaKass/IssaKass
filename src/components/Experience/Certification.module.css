@@ -1,0 +1,54 @@
+.certification {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	border: 1px solid var(--clr-neutral);
+	padding: 1rem 1.5rem;
+	gap: 1rem 2.5rem;
+	border-radius: var(--rad);
+	overflow: hidden;
+	transition: var(--transition);
+}
+
+@media (min-width: 540px) {
+	.certification {
+		flex-direction: row;
+	}
+}
+
+.certification:hover {
+	background-color: var(--clr-neutral);
+}
+
+.certification_image {
+	width: 3rem;
+}
+
+.certification_title {
+	font-weight: 600;
+	font-size: 1.3rem;
+}
+
+.certification_url {
+	display: block;
+	color: var(--clr-gray);
+	margin-top: 0.25rem;
+	font-size: 0.9rem;
+	text-decoration: underline;
+}
+
+.certification_url:hover {
+	color: var(--clr-light);
+}
+
+.certification_experience_list {
+	margin-top: 1rem;
+	list-style: disc;
+	padding-inline-start: 1rem;
+	font-weight: 300;
+	font-size: 0.95rem;
+}
+
+.certification_experience_item:not(:last-child) {
+	margin-bottom: 0.25rem;
+}

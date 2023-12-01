@@ -1,0 +1,7 @@
+.active {
+	pointer-events: none;
+}
+
+.active:hover {
+	background-color: initial;
+}

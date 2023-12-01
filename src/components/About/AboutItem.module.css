@@ -1,0 +1,39 @@
+.about_item {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	align-items: center;
+	gap: 1rem;
+	border-radius: var(--rad);
+	padding: 1rem;
+	border: 1px solid var(--clr-neutral);
+	transition: var(--transition);
+}
+
+@media (min-width: 540px) {
+	.about_item {
+		flex-direction: row;
+		text-align: initial;
+	}
+}
+
+.about_item:hover {
+	background-color: var(--clr-neutral);
+}
+
+.about_item:not(:last-of-type) {
+	margin-bottom: 1rem;
+}
+
+.about_item_image {
+	width: 4rem;
+}
+
+.about_item_title {
+	font-weight: bold;
+	font-size: 1.25rem;
+}
+
+.about_item_description {
+	margin-top: 0.5rem;
+}

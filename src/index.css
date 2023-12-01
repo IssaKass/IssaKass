@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap");
+
+:root {
+	/* colors */
+	--clr-primary: #04152d;
+	--clr-secondary: #1a366b;
+	--clr-secondary-transparent: #1a366b22;
+	--clr-neutral: #ffffff1f;
+	--clr-light: #ffffff;
+	--clr-dark: #0c0c0cdd;
+	--clr-gray: #bbbbbb;
+
+	--mail: #007bff;
+	--dribbble: #ea4c89;
+	--github: #000000;
+
+	/* typography */
+	--ff-base: "Rubik", sans-serif;
+
+	--rad: 0.5rem;
+
+	--transition: 200ms ease;
+}
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	font-size: 16px;
+	scroll-behavior: smooth;
+}
+
+body {
+	font-family: var(--ff-base);
+	background-color: var(--clr-primary);
+	color: var(--clr-light);
+}
+
+img {
+	display: block;
+	max-width: 100%;
+	object-fit: cover;
+	-webkit-user-drag: none;
+	filter: brightness(100%);
+}
+
+ul {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+p {
+	line-height: 1.6;
+}
+
+button {
+	border: none;
+	outline: none;
+	cursor: pointer;
+}
+
+section {
+	padding-block: 3.5rem;
+	scroll-margin-top: 60px;
+}
+
+.container {
+	padding-inline: 1rem;
+	margin-inline: auto;
+	max-width: 100%;
+}
+
+@media (min-width: 576px) {
+	.container {
+		width: 540px;
+	}
+}
+
+@media (min-width: 768px) {
+	.container {
+		width: 720px;
+	}
+}
+
+@media (min-width: 992px) {
+	.container {
+		width: 960px;
+	}
+}
+
+@media (min-width: 1200px) {
+	.container {
+		width: 1140px;
+	}
+}
+
+@media (min-width: 1400px) {
+	.container {
+		width: 1320px;
+	}
+}
+
+.btn {
+	background-color: var(--clr-neutral);
+	color: var(--clr-light);
+	font-size: 1rem;
+	padding: 0.6rem 0.8rem;
+	border-radius: var(--rad);
+	border: none;
+	outline: none;
+	cursor: pointer;
+	display: inline-block;
+	transition: var(--transition);
+}
+
+.btn:hover {
+	background-color: var(--clr-secondary);
+}
