@@ -20,7 +20,8 @@ function Hero() {
 						Flask. Reach out if you'd like to learn more!
 					</p>
 					<DownloadButton
-						fileToDownload={"/issakass/cv.pdf"}
+						fileToDownload={`${import.meta.env.VITE_BASE_URL}cv.pdf`}
+						filename={"issakass_cv.pdf"}
 						text={"Download my CV"}
 						greetingText={"Thanks 👍"}
 					/>

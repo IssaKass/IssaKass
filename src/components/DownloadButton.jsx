@@ -2,21 +2,21 @@ import React, { useState } from "react";
 import { saveAs } from "file-saver";
 import styles from "./DownloadButton.module.css";
 
-function DownloadButton({ fileToDownload, text, greetingText }) {
+function DownloadButton({ fileToDownload, filename, text, greetingText }) {
 	const [isDownloaded, setIsDownloaded] = useState(false);
 
 	async function downloadFile() {
 		try {
 			const response = await fetch(fileToDownload);
 			const blob = await response.blob();
-			saveAs(blob);
+			saveAs(blob, filename);
 		} catch (error) {
 			console.error("Error downloading file:", error);
 		}
 	}
 
 	function handleDownload() {
-		downloadFile();
+		downloadFile(filename);
 		setIsDownloaded(true);
 
 		setTimeout(() => {
