@@ -1,0 +1,35 @@
+[
+	{
+		"title": "Learn JavaScript",
+		"organisation": "Scrimba",
+		"url": "https://scrimba.com/learn/learnjavascript",
+		"experiences": [
+			"Variable and data types usage",
+			"Control flow, operators, and DOM interaction",
+			"Data structures manipulation and debugging"
+		],
+		"imageSrc": "/certifications/scrimba.svg"
+	},
+	{
+		"title": "Learn React",
+		"organisation": "Scrimba",
+		"url": "https://scrimba.com/learn/learnreact",
+		"experiences": [
+			"Local setup and introduction to React",
+			"Building reusable components with props",
+			"Handling state and forms in React"
+		],
+		"imageSrc": "/certifications/scrimba.svg"
+	},
+	{
+		"title": "Responsive Web Design",
+		"organisation": "Free Code Camp",
+		"url": "https://www.freecodecamp.org/learn/2022/resp",
+		"experiences": [
+			"HTML and CSS basics",
+			"Dynamic CSS variables and responsive layouts",
+			"Accessibility best practices and CSS Grid"
+		],
+		"imageSrc": "/certifications/freecodecamp.svg"
+	}
+]
