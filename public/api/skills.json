@@ -39,7 +39,7 @@
 			},
 			{
 				"title": "jQuery",
-				"imageSrc": "/skills/jquery.png",
+				"imageSrc": "/skills/jquery.svg",
 				"imageAlt": "jquery logo image"
 			}
 		]
@@ -95,12 +95,12 @@
 			},
 			{
 				"title": "DSA",
-				"imageSrc": "/skills/dsa.png",
+				"imageSrc": "/skills/dsa.svg",
 				"imageAlt": "data structures & algorithms icon"
 			},
 			{
 				"title": "Vscode",
-				"imageSrc": "/skills/vscode.png",
+				"imageSrc": "/skills/vscode.svg",
 				"imageAlt": "visual studio code logo image"
 			},
 			{
@@ -110,7 +110,7 @@
 			},
 			{
 				"title": "Postman",
-				"imageSrc": "/skills/postman.png",
+				"imageSrc": "/skills/postman.svg",
 				"imageAlt": "postman logo image"
 			},
 			{
