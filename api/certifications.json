@@ -8,7 +8,8 @@
 			"Control flow, operators, and DOM interaction",
 			"Data structures manipulation and debugging"
 		],
-		"imageSrc": "/certifications/scrimba.svg"
+		"imageSrc": "/certifications/scrimba.svg",
+		"imageAlt": "scrimba logo image"
 	},
 	{
 		"title": "Learn React",
@@ -19,7 +20,8 @@
 			"Building reusable components with props",
 			"Handling state and forms in React"
 		],
-		"imageSrc": "/certifications/scrimba.svg"
+		"imageSrc": "/certifications/scrimba.svg",
+		"imageAlt": "scrimba logo image"
 	},
 	{
 		"title": "Responsive Web Design",
@@ -30,6 +32,7 @@
 			"Dynamic CSS variables and responsive layouts",
 			"Accessibility best practices and CSS Grid"
 		],
-		"imageSrc": "/certifications/freecodecamp.svg"
+		"imageSrc": "/certifications/freecodecamp.svg",
+		"imageAlt": "freecodecamp logo image"
 	}
 ]

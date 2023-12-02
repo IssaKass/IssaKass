@@ -1,16 +1,19 @@
 [
 	{
 		"imageSrc": "/about/cursorIcon.png",
+		"imageAlt": "cursor icon",
 		"title": "Frontend Developer",
 		"description": "Crafting responsive and engaging user experiences"
 	},
 	{
 		"imageSrc": "/about/serverIcon.png",
+		"imageAlt": "server icon",
 		"title": "Backend Developer",
 		"description": "Builds efficient, scalable server-side systems for optimal performance"
 	},
 	{
 		"imageSrc": "/about/uiIcon.png",
+		"imageAlt": "user interface icon",
 		"title": "Full Stack Developer",
 		"description": "Passionate about seamless UIs with diverse tech skills"
 	}
