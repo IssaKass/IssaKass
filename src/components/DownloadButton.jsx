@@ -29,7 +29,7 @@ function DownloadButton({ fileToDownload, filename, text, greetingText }) {
 			className={`btn ${isDownloaded && styles.active}`}
 			onClick={handleDownload}
 			disabled={isDownloaded}
-			aria-label="Download button"
+			aria-label={isDownloaded ? greetingText : text}
 		>
 			{isDownloaded ? greetingText : text}
 		</button>

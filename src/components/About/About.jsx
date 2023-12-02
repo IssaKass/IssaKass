@@ -23,6 +23,7 @@ function About() {
 							className={styles.image}
 							src={`${import.meta.env.VITE_IMAGES_URL}/about/aboutImage.png`}
 							alt="about image"
+							loading="lazy"
 						/>
 					</div>
 					<div>

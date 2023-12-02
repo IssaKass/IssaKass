@@ -16,6 +16,7 @@ function Certification({ certification }) {
 				className={styles.certification_image}
 				src={`${import.meta.env.VITE_IMAGES_URL}${certification.imageSrc}`}
 				alt={certification.imageAlt}
+				loading="lazy"
 			/>
 			<div>
 				<h4 className={styles.certification_title}>{certification.title}</h4>

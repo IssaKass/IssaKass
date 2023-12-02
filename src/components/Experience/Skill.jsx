@@ -10,6 +10,7 @@ function Skill({ skill }) {
 					className={styles.skill_image}
 					src={`${import.meta.env.VITE_IMAGES_URL}${skill.imageSrc}`}
 					alt={skill.imageAlt}
+					loading="lazy"
 				/>
 			</div>
 		</div>
