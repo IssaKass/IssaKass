@@ -4,35 +4,43 @@
 		"skills": [
 			{
 				"title": "HTML",
-				"imageSrc": "/skills/html-5.png"
+				"imageSrc": "/skills/html-5.svg",
+				"imageAlt": "html-5 logo image"
 			},
 			{
 				"title": "CSS",
-				"imageSrc": "/skills/css-3.png"
+				"imageSrc": "/skills/css-3.svg",
+				"imageAlt": "css-3 logo image"
 			},
 			{
 				"title": "JavaScript",
-				"imageSrc": "/skills/js.png"
-			},
-			{
-				"title": "React",
-				"imageSrc": "/skills/react.png"
-			},
-			{
-				"title": "TailwindCSS",
-				"imageSrc": "/skills/tailwindcss.png"
-			},
-			{
-				"title": "Bootstrap",
-				"imageSrc": "/skills/bootstrap.png"
+				"imageSrc": "/skills/javascript.svg",
+				"imageAlt": "javascript logo image"
 			},
 			{
 				"title": "SASS",
-				"imageSrc": "/skills/sass.png"
+				"imageSrc": "/skills/sass.svg",
+				"imageAlt": "sass logo image"
+			},
+			{
+				"title": "React",
+				"imageSrc": "/skills/react.svg",
+				"imageAlt": "react logo image"
+			},
+			{
+				"title": "TailwindCSS",
+				"imageSrc": "/skills/tailwindcss.svg",
+				"imageAlt": "tailwind css logo image"
+			},
+			{
+				"title": "Bootstrap",
+				"imageSrc": "/skills/bootstrap.svg",
+				"imageAlt": "bootstrap logo image"
 			},
 			{
 				"title": "jQuery",
-				"imageSrc": "/skills/jquery.png"
+				"imageSrc": "/skills/jquery.png",
+				"imageAlt": "jquery logo image"
 			}
 		]
 	},
@@ -41,28 +49,34 @@
 		"skills": [
 			{
 				"title": "Python",
-				"imageSrc": "/skills/python.png"
+				"imageSrc": "/skills/python.svg",
+				"imageAlt": "python logo image"
 			},
 			{
 				"title": "Java",
-				"imageSrc": "/skills/java.png"
+				"imageSrc": "/skills/java.svg",
+				"imageAlt": "java logo image"
 			},
 
 			{
 				"title": "Flask",
-				"imageSrc": "/skills/flask.png"
+				"imageSrc": "/skills/flask.svg",
+				"imageAlt": "flask logo image"
 			},
 			{
 				"title": "C",
-				"imageSrc": "/skills/c.png"
+				"imageSrc": "/skills/c.svg",
+				"imageAlt": "c logo image"
 			},
 			{
 				"title": "PostgreSQL",
-				"imageSrc": "/skills/postgresql.png"
+				"imageSrc": "/skills/postgresql.svg",
+				"imageAlt": "postgresql logo image"
 			},
 			{
 				"title": "MySQL",
-				"imageSrc": "/skills/mysql.png"
+				"imageSrc": "/skills/mysql.svg",
+				"imageAlt": "mysql logo image"
 			}
 		]
 	},
@@ -71,27 +85,38 @@
 		"skills": [
 			{
 				"title": "Github",
-				"imageSrc": "/skills/github.png"
+				"imageSrc": "/skills/github.svg",
+				"imageAlt": "github logo image"
 			},
 			{
 				"title": "Git",
-				"imageSrc": "/skills/git.png"
+				"imageSrc": "/skills/git.svg",
+				"imageAlt": "git logo image"
 			},
 			{
 				"title": "DSA",
-				"imageSrc": "/skills/dsa.png"
+				"imageSrc": "/skills/dsa.png",
+				"imageAlt": "data structures & algorithms icon"
 			},
 			{
 				"title": "Vscode",
-				"imageSrc": "/skills/vscode.png"
+				"imageSrc": "/skills/vscode.png",
+				"imageAlt": "visual studio code logo image"
 			},
 			{
 				"title": "IntelliJ",
-				"imageSrc": "/skills/intellij.png"
+				"imageSrc": "/skills/intellij-idea.svg",
+				"imageAlt": "intellij idea logo image"
 			},
 			{
 				"title": "Postman",
-				"imageSrc": "/skills/postman.png"
+				"imageSrc": "/skills/postman.png",
+				"imageAlt": "postman logo image"
+			},
+			{
+				"title": "npm",
+				"imageSrc": "/skills/npm.svg",
+				"imageAlt": "npm logo image"
 			}
 		]
 	}

@@ -29,7 +29,7 @@ function Hero() {
 				<div className={styles.image_wrapper}>
 					<img
 						src={`${import.meta.env.VITE_IMAGES_URL}/hero/hero.png`}
-						alt=""
+						alt="hero image"
 					/>
 				</div>
 			</div>

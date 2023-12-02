@@ -7,7 +7,7 @@ function AboutItem({ about }) {
 			<img
 				className={styles.about_item_image}
 				src={`${import.meta.env.VITE_IMAGES_URL}${about.imageSrc}`}
-				alt="icon"
+				alt={about.imageAlt}
 			/>
 			<div className="">
 				<h3 className={styles.about_item_title}>{about.title}</h3>

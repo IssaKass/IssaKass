@@ -51,7 +51,11 @@ function Header() {
 						</li>
 					</ul>
 				</nav>
-				<button className={styles.menu_button} onClick={toggleNav}>
+				<button
+					aria-label="Navigation menu button"
+					className={styles.menu_button}
+					onClick={toggleNav}
+				>
 					{isNavOpen ? <FaXmark size={16} /> : <FaBars size={16} />}
 				</button>
 			</div>
