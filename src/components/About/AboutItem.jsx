@@ -9,6 +9,8 @@ function AboutItem({ about }) {
 				src={`${import.meta.env.VITE_IMAGES_URL}${about.imageSrc}`}
 				alt={about.imageAlt}
 				loading="lazy"
+				width="40"
+				height="40"
 			/>
 			<div className="">
 				<h3 className={styles.about_item_title}>{about.title}</h3>

@@ -31,7 +31,8 @@ function Hero() {
 						src={`${import.meta.env.VITE_IMAGES_URL}/hero/hero.png`}
 						alt="hero image"
 						loading="lazy"
-						width={200}
+						width="200"
+						height="200"
 					/>
 				</div>
 			</div>

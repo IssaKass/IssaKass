@@ -24,6 +24,8 @@ function About() {
 							src={`${import.meta.env.VITE_IMAGES_URL}/about/aboutImage.png`}
 							alt="about image"
 							loading="lazy"
+							width="100"
+							height="300"
 						/>
 					</div>
 					<div>
