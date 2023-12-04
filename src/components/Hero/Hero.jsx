@@ -28,7 +28,7 @@ function Hero() {
 				</div>
 				<div className={styles.image_wrapper}>
 					<img
-						src={`${import.meta.env.VITE_IMAGES_URL}/hero/hero.png`}
+						src={`${import.meta.env.VITE_IMAGES_URL}/hero/hero.webp`}
 						alt="hero image"
 						loading="lazy"
 						width="200"

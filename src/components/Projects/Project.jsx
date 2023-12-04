@@ -14,6 +14,8 @@ function Project({ project }) {
 				src={`${import.meta.env.VITE_IMAGES_URL}${project.imageSrc}`}
 				alt={project.imageAlt}
 				loading="lazy"
+				width="150"
+				height="150"
 			/>
 			<h3 className={styles.project_title}>{project.title}</h3>
 			<p className={styles.project_description}>{project.description}</p>

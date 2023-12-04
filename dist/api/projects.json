@@ -1,7 +1,7 @@
 [
 	{
 		"title": "React Notes App",
-		"imageSrc": "/projects/react-notes-app.png",
+		"imageSrc": "/projects/react-notes-app.webp",
 		"imageAlt": "react-notes-app project preview image",
 		"description": "This lightweight and user-friendly note-taking application is built using React. It comes with a set of features to enhance your note-taking experience.",
 		"skills": ["React", "Tailwind CSS"],
@@ -10,7 +10,7 @@
 	},
 	{
 		"title": "Hangman Game",
-		"imageSrc": "/projects/hangman.png",
+		"imageSrc": "/projects/hangman.webp",
 		"imageAlt": "hangman project preview image",
 		"description": "This interactive and visually appealing Hangman game is crafted with HTML, CSS, and JavaScript. Explore the challenge and fun as you guess the hidden word!",
 		"skills": ["HTML", "CSS", "JavaScript"],
@@ -19,7 +19,7 @@
 	},
 	{
 		"title": "Color Palette Generator",
-		"imageSrc": "/projects/color-palette-generator.png",
+		"imageSrc": "/projects/color-palette-generator.webp",
 		"imageAlt": "color-palette-generator project preview image",
 		"description": "Experience color creativity! Our Color Palette Generator, built with HTML, CSS, and JavaScript, makes it easy to explore and craft stunning color schemes for your designs",
 		"skills": ["HTML", "CSS", "JavaScript"],

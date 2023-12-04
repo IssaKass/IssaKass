@@ -21,7 +21,7 @@ function About() {
 					<div className={styles.image_wrapper}>
 						<img
 							className={styles.image}
-							src={`${import.meta.env.VITE_IMAGES_URL}/about/aboutImage.png`}
+							src={`${import.meta.env.VITE_IMAGES_URL}/about/aboutImage.webp`}
 							alt="about image"
 							loading="lazy"
 							width="100"
