@@ -1,6 +1,10 @@
 {
 	"name": "IssaKass portfolio",
 	"short_name": "IssaKass",
+	"start_url": "/",
+	"display": "standalone",
+	"background_color": "#FFFFFF",
+	"theme_color": "#000000",
 	"icons": [
 		{
 			"src": "/pwa-192x192.png",
@@ -26,9 +30,5 @@
 			"type": "image/png",
 			"purpose": "maskable"
 		}
-	],
-	"start_url": "/IssaKass/",
-	"display": "standalone",
-	"background_color": "#FFFFFF",
-	"theme_color": "#FFFFFF"
+	]
 }
