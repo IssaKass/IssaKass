@@ -38,6 +38,6 @@ To run the React Notes App locally, follow these steps:
 
 ## Live Preview
 
-You can experience my portfolio live by visiting [IssaKass Portfolio](https://issakass.github.io/IssaKass/).
+You can experience my portfolio live by visiting [IssaKass Portfolio](https://issakass.github.io/issakass/).
 
 Thank you for visiting, and I hope you enjoy exploring my work!
