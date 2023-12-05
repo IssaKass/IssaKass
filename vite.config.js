@@ -5,6 +5,7 @@ import { VitePWA } from "vite-plugin-pwa";
 
 // https://vitejs.dev/config/
 export default defineConfig({
+	base: "/issakass/",
 	plugins: [
 		react(),
 		compression(),
@@ -27,30 +28,6 @@ export default defineConfig({
 					},
 				],
 			},
-			devOptions: {
-				enabled: true,
-			},
-			workbox: {
-				globPatterns: ["**/*.{js,css,html,pdf}"],
-				runtimeCaching: [
-					{
-						urlPattern: ({ url }) => {
-							return url.pathname.startsWith("/api");
-						},
-						handler: "CacheFirst",
-						options: {
-							cacheName: "api-cache",
-							cacheableResponse: {
-								statuses: [0 - 200],
-							},
-						},
-					},
-				],
-			},
 		}),
 	],
-	build: {
-		outDir: "./dist/",
-		emptyOutDir: true,
-	},
 });
