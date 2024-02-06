@@ -20,15 +20,6 @@ Explore the various projects I've worked on, each offering a unique perspective 
 
 Connect with me! Whether you have questions, opportunities, or just want to say hello, I'm always open to new connections.
 
-## Getting Started
-
-To run the React Notes App locally, follow these steps:
-
-1. Clone the repository: `git clone [repository_url]`
-2. Navigate to the project folder: `cd react-notes-app`
-3. Install dependencies: `npm install`
-4. Start the application: `npm start`
-
 ## Technologies Used
 
 - HTML
