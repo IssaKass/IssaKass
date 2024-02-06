@@ -6,13 +6,13 @@ function AboutItem({ about }) {
 		<div className={styles.about_item}>
 			<img
 				className={styles.about_item_image}
-				src={`${import.meta.env.VITE_IMAGES_URL}${about.imageSrc}`}
+				src={about.imageSrc}
 				alt={about.imageAlt}
 				loading="lazy"
 				width="40"
 				height="40"
 			/>
-			<div className="">
+			<div>
 				<h3 className={styles.about_item_title}>{about.title}</h3>
 				<p className={styles.about_item_description}>{about.description}</p>
 			</div>

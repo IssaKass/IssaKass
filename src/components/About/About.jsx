@@ -1,18 +1,10 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
+import aboutData from "../../data/about.json";
+import SectionTitle from "../SectionTitle";
 import styles from "./About.module.css";
 import AboutItem from "./AboutItem";
-import SectionTitle from "../SectionTitle";
 
 function About() {
-	const [aboutData, setAboutData] = useState([]);
-
-	useEffect(() => {
-		fetch(`${import.meta.env.VITE_API_URL}/about.json`)
-			.then((res) => res.json())
-			.then((data) => setAboutData(data))
-			.catch((err) => console.error("Error fetching 'about' data:", err));
-	}, []);
-
 	return (
 		<section id="about" className={styles.about}>
 			<div className={`container ${styles.container}`}>
@@ -21,7 +13,7 @@ function About() {
 					<div className={styles.image_wrapper}>
 						<img
 							className={styles.image}
-							src={`${import.meta.env.VITE_IMAGES_URL}/about/aboutImage.webp`}
+							src={"/assets/about/aboutImage.webp"}
 							alt="about image"
 							loading="lazy"
 							width="100"

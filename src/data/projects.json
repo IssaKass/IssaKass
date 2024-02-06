@@ -1,7 +1,7 @@
 [
 	{
 		"title": "React Notes App",
-		"imageSrc": "/projects/react-notes-app.webp",
+		"imageSrc": "/assets/projects/react-notes-app.webp",
 		"imageAlt": "react-notes-app project preview image",
 		"description": "This lightweight and user-friendly note-taking application is built using React. It comes with a set of features to enhance your note-taking experience.",
 		"skills": ["React", "Tailwind CSS"],
@@ -10,7 +10,7 @@
 	},
 	{
 		"title": "Hangman Game",
-		"imageSrc": "/projects/hangman.webp",
+		"imageSrc": "/assets/projects/hangman.webp",
 		"imageAlt": "hangman project preview image",
 		"description": "This interactive and visually appealing Hangman game is crafted with HTML, CSS, and JavaScript. Explore the challenge and fun as you guess the hidden word!",
 		"skills": ["HTML", "CSS", "JavaScript"],
@@ -19,11 +19,20 @@
 	},
 	{
 		"title": "Color Palette Generator",
-		"imageSrc": "/projects/color-palette-generator.webp",
+		"imageSrc": "/assets/projects/color-palette-generator.webp",
 		"imageAlt": "color-palette-generator project preview image",
 		"description": "Experience color creativity! Our Color Palette Generator, built with HTML, CSS, and JavaScript, makes it easy to explore and craft stunning color schemes for your designs",
 		"skills": ["HTML", "CSS", "JavaScript"],
 		"demoUrl": "https://issakass.github.io/JS-ColorPaletteGenerator/",
 		"sourceUrl": "https://github.com/IssaKass/JS-ColorPaletteGenerator"
+	},
+	{
+		"title": "Financial Admin Dashboard",
+		"imageSrc": "/assets/projects/financial-admin-dashboard.webp",
+		"imageAlt": "financial-admin-dashboard project preview image",
+		"description": "Custom-built Financial Admin Dashboard for a valued client, featuring Flask, React, Redux, and Tailwind CSS for secure authentication and dynamic financial tracking.",
+		"skills": ["Flask", "React", "Redux", "Tailwind CSS"],
+		"demoUrl": "https://react-frontend-production-48e6.up.railway.app/",
+		"sourceUrl": "https://github.com/IssaKass/financial-app-backend"
 	}
 ]

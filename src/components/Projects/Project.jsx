@@ -11,7 +11,7 @@ function Project({ project }) {
 		<div className={styles.project}>
 			<img
 				className={styles.project_image}
-				src={`${import.meta.env.VITE_IMAGES_URL}${project.imageSrc}`}
+				src={project.imageSrc}
 				alt={project.imageAlt}
 				loading="lazy"
 				width="150"

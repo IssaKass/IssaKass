@@ -1,29 +1,12 @@
-import React, { useEffect, useState } from "react";
-import Skill from "./Skill";
+import React from "react";
+import certifications from "../../data/certifications.json";
+import skills from "../../data/skills.json";
+import SectionTitle from "../SectionTitle";
 import Certification from "./Certification";
 import styles from "./Experience.module.css";
-import SectionTitle from "../SectionTitle";
+import Skill from "./Skill";
 
 function Experience() {
-	const [skills, setSkills] = useState([]);
-	const [certifications, setCertfications] = useState([]);
-
-	useEffect(() => {
-		fetch(`${import.meta.env.VITE_API_URL}/skills.json`)
-			.then((res) => res.json())
-			.then((data) => setSkills(data))
-			.catch((err) => console.error("Error fetching 'skills' data:", err));
-	}, []);
-
-	useEffect(() => {
-		fetch(`${import.meta.env.VITE_API_URL}/certifications.json`)
-			.then((res) => res.json())
-			.then((data) => setCertfications(data))
-			.catch((err) =>
-				console.error("Error fetching 'certifications' data:", err)
-			);
-	}, []);
-
 	const skillsElements = skills.map((skillGroup, index) => (
 		<div className={styles.skills_group} key={index}>
 			<h4 className={styles.skills_type}>{skillGroup.type}</h4>

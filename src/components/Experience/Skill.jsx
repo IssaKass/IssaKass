@@ -8,7 +8,7 @@ function Skill({ skill }) {
 			<div className={styles.skill_image_wrapper}>
 				<img
 					className={styles.skill_image}
-					src={`${import.meta.env.VITE_IMAGES_URL}${skill.imageSrc}`}
+					src={skill.imageSrc}
 					alt={skill.imageAlt}
 					loading="lazy"
 				/>

@@ -14,7 +14,7 @@ function Certification({ certification }) {
 		<div className={styles.certification}>
 			<img
 				className={styles.certification_image}
-				src={`${import.meta.env.VITE_IMAGES_URL}${certification.imageSrc}`}
+				src={certification.imageSrc}
 				alt={certification.imageAlt}
 				loading="lazy"
 				width="30"

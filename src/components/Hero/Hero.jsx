@@ -1,7 +1,7 @@
-import React, { useState } from "react";
-import styles from "./Hero.module.css";
-import DownloadButton from "../DownloadButton";
+import React from "react";
 import randomItem from "../../utils";
+import DownloadButton from "../DownloadButton";
+import styles from "./Hero.module.css";
 
 const greetingEmojies = ["👋", "😁", "🔥"];
 
@@ -20,7 +20,7 @@ function Hero() {
 						Flask. Reach out if you'd like to learn more!
 					</p>
 					<DownloadButton
-						fileToDownload={`${import.meta.env.VITE_BASE_URL}cv.pdf`}
+						fileToDownload="/cv.pdf"
 						filename={"issakass_cv.pdf"}
 						text={"Download my CV"}
 						greetingText={"Thanks 👍"}
@@ -28,7 +28,7 @@ function Hero() {
 				</div>
 				<div className={styles.image_wrapper}>
 					<img
-						src={`${import.meta.env.VITE_IMAGES_URL}/hero/hero.webp`}
+						src="/assets/hero/hero.webp"
 						alt="hero image"
 						loading="lazy"
 						width="200"

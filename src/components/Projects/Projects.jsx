@@ -1,18 +1,10 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
+import projects from "../../data/projects.json";
+import SectionTitle from "../SectionTitle";
 import Project from "./Project";
 import styles from "./Projects.module.css";
-import SectionTitle from "../SectionTitle";
 
 function Projects() {
-	const [projects, setProjects] = useState([]);
-
-	useEffect(() => {
-		fetch(`${import.meta.env.VITE_API_URL}/projects.json`)
-			.then((res) => res.json())
-			.then((data) => setProjects(data))
-			.catch((err) => console.error("Error fetching 'projects' data:", err));
-	}, []);
-
 	const projectsElements = projects.map((project, index) => (
 		<Project key={index} project={project} />
 	));
